@@ -39,6 +39,7 @@ body {
     var(--pink-light),
     var(--cyan-light)
   );
+  background-attachment: fixed;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -237,13 +238,11 @@ img {
 
 /* ------- About Section ------- */
 .about-img {
-    background-color: red;
     width: 40%;
     padding: 0 15px;
 }
 
-.about-text {
-    background-color: blue;
+.about-text {    
     width: 60%;
     padding: 0 15px;
 }
@@ -252,4 +251,10 @@ img {
 background-color: var(--white-alpha-25);
 max-width: 380px;
 border: 1px solid var(--white-alpha-40);
+margin: auto;
+border-radius: 10px;
+}
+
+.about-img .img-box img {
+    width: 100%;
 }
