@@ -279,10 +279,18 @@ border-radius: 10px;
     border-radius: 20px;
 }
 
+.about-tabs {
+  margin-top: 20px;
+}
+
 .about-tabs .tab-item {
  display: inline-block;
  background-color: transparent;
  border: none;
  padding: 2px 0;
  text-transform: capitalize;
+ color: var(--blue-dark);
+ font-size: 20px;
+ cursor: pointer;
+ font-weight: 500;
 }
