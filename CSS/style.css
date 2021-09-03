@@ -322,3 +322,8 @@ border-radius: 10px;
 .about-tabs .tab-item:hover::before{
   width: 100%;
 }
+
+.about-tabs .tab-item.active::before {
+  width: 100%;
+  background-color: var(--main-color);
+}
