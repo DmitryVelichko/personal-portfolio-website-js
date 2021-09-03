@@ -150,6 +150,11 @@ img {
 
 /* ------- Buttons ------- */
 
+button {
+  font-family: inherit;
+  user-select: none;
+}
+
 .btn {
   position: relative;
   display: inline-block;
