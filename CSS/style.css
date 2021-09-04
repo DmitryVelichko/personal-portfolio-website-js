@@ -104,8 +104,10 @@ h6 {
 img {
   max-width: 100%;
   vertical-align: middle;
-  /* height: 500px;
-    width: 500px; */
+}
+
+ul {
+ list-style: none; 
 }
 
 .align-items-center {
