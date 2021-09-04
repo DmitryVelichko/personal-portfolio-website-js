@@ -130,8 +130,8 @@ img {
 }
 
 .section-title h2 {
-    font-size: 40px;
-    text-transform: capitalize;
+  font-size: 40px;
+  text-transform: capitalize;
 }
 
 /* ------- Custom Scrollbar ------- */
@@ -243,45 +243,45 @@ button {
 
 /* ------- About Section ------- */
 .about-img {
-    width: 40%;
-    padding: 0 15px;
+  width: 40%;
+  padding: 0 15px;
 }
 
-.about-text {    
-    width: 60%;
-    padding: 0 15px;
+.about-text {
+  width: 60%;
+  padding: 0 15px;
 }
 
 .about-img .img-box {
-background-color: var(--white-alpha-25);
-max-width: 380px;
-border: 1px solid var(--white-alpha-40);
-margin: auto;
-border-radius: 10px;
+  background-color: var(--white-alpha-25);
+  max-width: 380px;
+  border: 1px solid var(--white-alpha-40);
+  margin: auto;
+  border-radius: 10px;
 }
 
 .about-img .img-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .about-text h3 {
-    text-transform: capitalize;
-    font-size: 20px;
-    margin: 20px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 20px 0;
 }
 
 .about-text .skills {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-text .skill-item {
-    background-color: var(--white-alpha-25);
-    border: 1px solid var(--white-alpha-40);
-    padding: 5px 15px;
-    text-transform: capitalize;
-    margin: 0 10px 10px 0;
-    border-radius: 20px;
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  padding: 5px 15px;
+  text-transform: capitalize;
+  margin: 0 10px 10px 0;
+  border-radius: 20px;
 }
 
 .about-tabs {
@@ -289,19 +289,19 @@ border-radius: 10px;
 }
 
 .about-tabs .tab-item {
- display: inline-block;
- background-color: transparent;
- border: none;
- padding: 2px 0;
- text-transform: capitalize;
- color: var(--blue-dark);
- font-size: 20px;
- cursor: pointer;
- font-weight: 500;
- margin: 0 30px 0 0;
- position: relative;
- opacity: 0.5;
- transition: all 0.3s ease;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 2px 0;
+  text-transform: capitalize;
+  color: var(--blue-dark);
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 30px 0 0;
+  position: relative;
+  opacity: 0.5;
+  transition: all 0.3s ease;
 }
 
 .about-tabs .tab-item:last-child {
@@ -309,9 +309,9 @@ border-radius: 10px;
 }
 
 .about-tabs .tab-item::before {
-  content: '';
+  content: "";
   position: absolute;
-  left:0;
+  left: 0;
   bottom: 0;
   background-color: var(--blue-dark);
   width: 0%;
@@ -319,7 +319,7 @@ border-radius: 10px;
   transition: width 0.3s ease;
 }
 
-.about-tabs .tab-item:hover::before{
+.about-tabs .tab-item:hover::before {
   width: 100%;
 }
 
@@ -339,7 +339,7 @@ border-radius: 10px;
 }
 
 .about-text .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   width: 1px;
@@ -364,7 +364,7 @@ border-radius: 10px;
 }
 
 .about-text .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 11px;
   width: 11px;
@@ -379,16 +379,16 @@ border-radius: 10px;
 }
 
 .about-text .timeline-item .date {
-display: block;
-color: var(--main-color);
-font-weight: 400;
-margin: 0 0 10px;
+  display: block;
+  color: var(--main-color);
+  font-weight: 400;
+  margin: 0 0 10px;
 }
 
 .about-text .timeline-item h4 {
-font-style: 18px;
-text-transform: capitalize;
-margin: 0 0 10px;
+  font-style: 18px;
+  text-transform: capitalize;
+  margin: 0 0 10px;
 }
 
 .about-text .timeline-item h4 span {
@@ -398,3 +398,38 @@ margin: 0 0 10px;
 .about-text .btn {
   margin: 0 15px 15px 0;
 }
+
+/* ------- Portfolio Section ------- */
+
+.portfolio-section {
+  padding-bottom: 50px;
+}
+
+.portfolio-item {
+  width: calc((100% / 3) - 30px);
+  margin: 0 15px 30px;
+}
+
+.portfolio-item-thumbnail {
+  padding: 10px;
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  border-radius: 10px;
+}
+
+.portfolio-item-thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-item h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+
+.portfolio-item-details {
+  display: none;
+}
+
+
