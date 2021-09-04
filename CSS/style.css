@@ -50,6 +50,11 @@ body {
   padding: 5vh 15px;
 }
 
+body.hide-scrolling {
+  overflow-y: hidden;
+}
+
+
 body::before {
   content: "";
   background-color: var(--green-yellow);
