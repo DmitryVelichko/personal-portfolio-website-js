@@ -440,7 +440,18 @@ button {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: red;
   z-index: 200;
-  opacity: 0.5;
+}
+
+.pp-inner {
+  min-height: 100vh;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pp-content {
+  background-color: var(--white-alpha-25);
+  padding: 30px;
 }
