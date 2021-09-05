@@ -545,6 +545,12 @@ button {
   margin-bottom: 30px;
 }
 
+.contact-form .input-control::placeholder {
+  color: var(--blue-dark);
+  opacity: 0.8;
+  font-weight: 300;
+}
+
 .contact-form .input-control {
   display: block;
   width: 100%;
@@ -557,4 +563,16 @@ button {
   background-color: var(--white-alpha-25);
   padding: 0 20px;
   color: var(--blue-dark);
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form .input-control:focus {
+  border-color: var(--main-color); /* var(--white-alpha-40) */
+}
+
+.contact-form textarea.input-control {
+  height: 120px;
+  /* resize: none; */
+  padding-top: 15px;
 }
