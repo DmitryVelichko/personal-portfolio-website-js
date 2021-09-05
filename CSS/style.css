@@ -532,3 +532,18 @@ button {
   text-transform: lowercase;
   color: var(--main-color);
 }
+
+/* ------- Contact Section  ------- */
+
+.contact-form {
+  background-color: steelblue;
+}
+
+.contact-info {
+  background-color: green;
+}
+
+.contact-form, .contact-info {
+  width: 50%;
+  padding: 0 15px;
+}
