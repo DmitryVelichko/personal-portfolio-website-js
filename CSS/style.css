@@ -271,6 +271,7 @@ header {
 
 .header .nav {
   position: fixed;
+  left: 0;
 }
 
 /* ------- Home Section ------- */
