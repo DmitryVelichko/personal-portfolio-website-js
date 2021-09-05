@@ -269,6 +269,10 @@ header {
   width: 50%;
 }
 
+.header .nav {
+  position: fixed;
+}
+
 /* ------- Home Section ------- */
 
 .home-section {
