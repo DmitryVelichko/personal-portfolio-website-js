@@ -2,12 +2,16 @@
 const navToggler = document.querySelector('.nav-toggler');
 navToggler.addEventListener('click', () => {
     hideSection();
+    toggleNavbar();
 })
 
 const hideSection = () => {
     document.querySelector('section.active').classList.toggle('fade-out');
 }
 
+const toggleNavbar = () => {
+    document.querySelector('.header').classList.toggle('active');
+}
 
 /* ------- About Tabs ------- */
 

@@ -81,6 +81,7 @@ section {
 
 section.active {
   display: block;
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 section.fade-out {
@@ -222,7 +223,15 @@ button {
 
 /* ------- Animation ------- */
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
 
+  100% {
+    opacity: 0;
+  }
+}
 
 /* ------- Header ------- */
 
@@ -294,6 +303,10 @@ header {
   visibility: hidden;
 }
 
+.header.active .nav {
+  visibility: visible;
+}
+
 .header .nav-inner {
   min-height: calc(100vh - 70px);
   max-width: 1200px;
@@ -306,6 +319,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.header.active .nav-inner {
+  opacity: 1;
 }
 
 .header .nav-inner ul li {
