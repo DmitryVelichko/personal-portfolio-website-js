@@ -18,6 +18,8 @@ const toggleNavbar = () => {
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("link-item") && e.target.hash !== "") {
+      // activate ovelay to prevent multiple clicks
+    document.querySelector('.overlay').classList.add('active');
     navToggler.classList.add('hide');
 
     if (e.target.classList.contains("nav-item")) {
@@ -26,14 +28,15 @@ document.addEventListener("click", (e) => {
       hideSection();
       document.body.classList.add('hide-scrolling');
     }
-    
+
     setTimeout(() => {
         document.querySelector('section.active').classList.remove('active', 'fade-out');
         document.querySelector(e.target.hash).classList.add('active');
         window.scrollTo(0,0);
         document.body.classList.remove('hide-scrolling');
         navToggler.classList.remove('hide');
-    }, 200)
+        document.querySelector('.overlay').classList.remove('active');
+    }, 500)
   }
 });
 
