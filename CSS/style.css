@@ -76,6 +76,11 @@ section {
   min-height: calc(100vh - 70px);
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
+  display: none;
+}
+
+section.active {
+  display: block;
 }
 
 .main {
@@ -277,6 +282,8 @@ header {
   height: 100%;
   width: 100%;
   padding: 35px 15px;
+  overflow-y: auto;
+  visibility: hidden;
 }
 
 .header .nav-inner {
@@ -320,6 +327,10 @@ header {
   transition: width 0.5s ease;
 }
 
+.header .nav-inner ul li a:hover::before {
+  width: 100%;
+}
+
 .header .nav-inner ul li a:hover {
   color: var(--main-color);
 }
@@ -327,8 +338,11 @@ header {
 /* ------- Home Section ------- */
 
 .home-section {
-  display: flex;
   padding: 120px 0;
+}
+
+.home-section.active {
+  display: flex;
 }
 
 .home-text,

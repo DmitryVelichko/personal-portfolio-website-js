@@ -1,3 +1,11 @@
+/* ------- Toggle Navbar ------- */
+
+
+
+
+
+
+
 /* ------- About Tabs ------- */
 
 const tabsContainer = document.querySelector('.about-tabs');
@@ -49,4 +57,7 @@ const portfolioItemDetails = (portfolioItem) => {
     document.querySelector('.pp-header h3').innerHTML = portfolioItem.querySelector('.portfolio-item-title').innerHTML;
     document.querySelector('.pp-body').innerHTML = portfolioItem.querySelector('.portfolio-item-details').innerHTML;
 }
+
+
+
 
