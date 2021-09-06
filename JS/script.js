@@ -3,6 +3,7 @@ const navToggler = document.querySelector('.nav-toggler');
 navToggler.addEventListener('click', () => {
     hideSection();
     toggleNavbar();
+    document.body.classList.toggle('hide-scrolling');
 })
 
 const hideSection = () => {
@@ -12,6 +13,11 @@ const hideSection = () => {
 const toggleNavbar = () => {
     document.querySelector('.header').classList.toggle('active');
 }
+
+
+/* ------- Active Section ------- */
+
+
 
 /* ------- About Tabs ------- */
 
