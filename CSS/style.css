@@ -83,6 +83,10 @@ section.active {
   display: block;
 }
 
+section.fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
 .main {
   max-width: 1200px;
   margin: auto;
@@ -215,6 +219,10 @@ button {
 .btn:hover {
   color: var(--white);
 }
+
+/* ------- Animation ------- */
+
+
 
 /* ------- Header ------- */
 
