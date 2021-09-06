@@ -233,6 +233,16 @@ button {
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* ------- Header ------- */
 
 header {
@@ -264,6 +274,7 @@ header {
   width: 24px;
   background-color: var(--main-color);
   position: relative;
+  transition: background-color 0.3s ease;
 }
 
 .header .nav-toggler span::before,
