@@ -346,6 +346,11 @@ button {
   width: 100%;
   z-index: 999;
   background-color: var(--white-alpha-25);
+  backdrop-filter: var(--backdrop-filter-blur);
+}
+
+.page-loader div:nth-child(1) {
+  height: 60px;
 }
 
 /* ------- Header ------- */
