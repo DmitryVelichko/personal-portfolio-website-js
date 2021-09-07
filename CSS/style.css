@@ -349,10 +349,13 @@ button {
   backdrop-filter: var(--backdrop-filter-blur);
 }
 
+.page-loader div {
+  border: 2px solid transparent;
+}
+
 .page-loader div:nth-child(1) {
   height: 60px;
   width: 60px;
-  background-color: var(--main-color);
 }
 
 /* ------- Header ------- */
