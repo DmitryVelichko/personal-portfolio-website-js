@@ -953,6 +953,11 @@ header {
 
   .contact-info {
     order: -1;
+    margin-bottom: 15px;
+  }
+
+  .contact-info-item {
+    padding: 0;
   }
 }
 
