@@ -356,6 +356,19 @@ button {
 .page-loader div:nth-child(1) {
   height: 60px;
   width: 60px;
+  border-color: var(--main-color);
+}
+
+.page-loader div:nth-child(2) {
+  height: 45px;
+  width: 45px;
+  border-color: var(--blue);
+}
+
+.page-loader div:nth-child(3) {
+  height: 30px;
+  width: 30px;
+  border-color: var(--orange);
 }
 
 /* ------- Header ------- */
