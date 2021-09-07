@@ -244,7 +244,8 @@ button {
 }
 
 @keyframes zoomInOut {
-  0%,100% {
+  0%,
+  100% {
     transform: scale(0.5);
   }
   50% {
@@ -253,7 +254,8 @@ button {
 }
 
 @keyframes bounceTop {
-  0%,100% {
+  0%,
+  100% {
     transform: translateY(-50px);
   }
   50% {
@@ -264,13 +266,12 @@ button {
 
 .bg-circles {
   position: fixed;
-  top:0;
+  top: 0;
   height: 100%;
   max-width: 1200px;
   width: calc(100% - 30px);
   left: 50%;
   transform: translateX(-50%);
-
 }
 
 .bg-circles div {
@@ -284,7 +285,7 @@ button {
   background-color: var(--blue);
   left: 5%;
   top: 10%;
-  opacity: 0.3; 
+  opacity: 0.3;
   animation: zoomInOut 8s linear infinite;
 }
 
@@ -315,7 +316,6 @@ button {
   top: 80%;
   left: -30px;
   opacity: 0.6;
-
 }
 
 /* ------- Overlay ------- */
@@ -323,12 +323,12 @@ button {
 .overlay {
   position: fixed;
   left: 0;
-  top:0;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: transparent;
   z-index: 200;
-  
+
   visibility: hidden;
 }
 
@@ -898,10 +898,9 @@ header {
   background-color: var(--main-color);
 }
 
-
 /* ------- Responsive versions  ------- */
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .container {
     padding: 0;
   }
@@ -932,7 +931,9 @@ header {
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
+  .contact-form,
+  .contact-info,
   .about-img,
   .about-text {
     width: 100%;
@@ -947,11 +948,11 @@ header {
   }
 
   .pp-inner {
-padding: 30px 15px;
+    padding: 30px 15px;
   }
 }
 
-@media(max-width: 575px) {
+@media (max-width: 575px) {
   .section-title h2,
   .header .nav-inner ul li a {
     font-size: 35px;
@@ -964,7 +965,8 @@ padding: 30px 15px;
   .home-text h2 {
     font-size: 18px;
   }
+
+  .pp-header h3 {
+    font-size: 20px;
+  }
 }
-
-
-
