@@ -950,6 +950,10 @@ header {
   .pp-inner {
     padding: 30px 15px;
   }
+
+  .contact-info {
+    order: -1;
+  }
 }
 
 @media (max-width: 575px) {
