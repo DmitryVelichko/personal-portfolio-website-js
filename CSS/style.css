@@ -262,6 +262,16 @@ button {
     transform: translateY(0px);
   }
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* ------- Background Circles ------- */
 
 .bg-circles {
@@ -347,10 +357,24 @@ button {
   z-index: 999;
   background-color: var(--white-alpha-25);
   backdrop-filter: var(--backdrop-filter-blur);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease;
+}
+
+.page-loader.main.fade-out {
+  opacity: 0;
 }
 
 .page-loader div {
   border: 2px solid transparent;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  animation: spin 1s linear infinite;
 }
 
 .page-loader div:nth-child(1) {
@@ -363,6 +387,8 @@ button {
   height: 45px;
   width: 45px;
   border-color: var(--blue);
+  animation-duration: 1.2s;
+
 }
 
 .page-loader div:nth-child(3) {
