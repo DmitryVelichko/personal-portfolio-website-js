@@ -3,6 +3,10 @@ window.addEventListener('load', () => {
   document.querySelector('.home-section').classList.add('active');
 });
 
+/* ------- Text Typing Animation ------- */
+
+const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
+
 /* ------- Page Loader ------- */
 document.querySelector('.page-loader').classList.add('fade-out');
 setTimeout(() => {
