@@ -6,6 +6,18 @@ window.addEventListener('load', () => {
 /* ------- Text Typing Animation ------- */
 
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
+const typingDelay = 200;
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------- Page Loader ------- */
 document.querySelector('.page-loader').classList.add('fade-out');
