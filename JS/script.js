@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
 const typingDelay = 200;
-
+const erasingDelay = 100;
 
 
 
