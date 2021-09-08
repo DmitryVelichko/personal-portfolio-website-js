@@ -66,31 +66,6 @@ body::before {
   opacity: 0.12;
 }
 
-/* ------- Text Typing Animation ------- */
-
-.body2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.wrapper {
-  display: inline-flex;
-}
-
-.dynamic-txts li span {
-position: relative;
-}
-
-.dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  border-left: 2px solid var(--main-color);
-  animation: typing 1.5s steps();
-}
-
 a {
   text-decoration: none;
 }
@@ -183,6 +158,40 @@ ul {
 .section-title h2 {
   font-size: 40px;
   text-transform: capitalize;
+}
+
+/* ------- Text Typing Animation ------- */
+
+.wrapper {
+  display: inline-flex;
+}
+
+
+.wrapper .dynamic-txts {
+  margin-left: 5px;
+  text-align: left;
+}
+
+.dynamic-txts li span {
+position: relative ;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  border-left: 2px solid var(--main-color);
+  animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -10px 0 10px;
+  }
 }
 
 /* ------- Custom Scrollbar ------- */
