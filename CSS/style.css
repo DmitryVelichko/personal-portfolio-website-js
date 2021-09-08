@@ -66,6 +66,27 @@ body::before {
   opacity: 0.12;
 }
 
+/* ------- Text Typing Animation ------- */
+
+.body2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid var(--main-color);
+}
+
 a {
   text-decoration: none;
 }
