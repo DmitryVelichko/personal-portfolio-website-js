@@ -160,39 +160,8 @@ ul {
   text-transform: capitalize;
 }
 
-/* ------- Text Typing Animation ------- */
+/* -------!!!!!!! Text Typing Animation !!!!!!!!------- */
 
-.wrapper {
-  display: inline-flex;
-}
-
-
-.wrapper .dynamic-txts {
-  margin-left: 5px;
-  text-align: left;
-}
-
-.dynamic-txts li span {
-position: relative ;
-}
-
-.dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  border-left: 2px solid var(--main-color);
-  animation: typing 1.5s steps(10) infinite;
-}
-
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -10px 0 10px;
-  }
-}
 
 /* ------- Custom Scrollbar ------- */
 
