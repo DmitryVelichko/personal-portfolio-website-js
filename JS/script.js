@@ -10,9 +10,9 @@ const cursorSpan = document.querySelector(".cursor");
 
 const typedTextSpan = document.querySelector(".typed-text");
 
-const typingDelay = 200;
+const typingDelay = 100;
 const erasingDelay = 100;
-const newTextDelay = 2000;
+const newTextDelay = 1300;
 
 let textArrayIndex = 0;
 let charIndex = 0;

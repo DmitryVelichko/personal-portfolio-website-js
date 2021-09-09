@@ -104,7 +104,7 @@ section.fade-out {
   width: 100%;
 }
 
-.container h2 {
+.container_animation h2 {
   font-weight: 500 !important;
 }
 
@@ -175,13 +175,12 @@ ul {
   width: 3px;
   background-color: var(--main-color);
   margin-left: 0.1rem;
-  animation: blink 1s infinite;
+  animation: blink 0.5s infinite;
 }
 
 .cursor.typing {
   animation: none;
 }
-
 
 
 /* ------- Custom Scrollbar ------- */
