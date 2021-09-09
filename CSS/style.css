@@ -168,7 +168,7 @@ ul {
 
 .cursor {
   display: inline-block;
-  width: 3px;
+  width: 2px;
   background-color: var(--main-color);
   margin-left: 0.1rem;
   animation: blink 1s infinite;

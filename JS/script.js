@@ -1,16 +1,13 @@
-window.addEventListener('load', () => {
-  document.querySelector('.main').classList.remove('hidden');
-  document.querySelector('.home-section').classList.add('active');
+window.addEventListener("load", () => {
+  document.querySelector(".main").classList.remove("hidden");
+  document.querySelector(".home-section").classList.add("active");
 });
 
 /* ------- Text Typing Animation ------- */
 
-
-
-
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
 
-const typedTextSpan = document.querySelector('.typed-text');
+const typedTextSpan = document.querySelector(".typed-text");
 
 const typingDelay = 200;
 const erasingDelay = 100;
@@ -19,26 +16,29 @@ const newTextDelay = 2000;
 let textArrayIndex = 0;
 let charIndex = 0;
 
-function type() {
-  if(charIndex < textArray[textArrayIndex].length) {
+const type = () => {
+  if (charIndex < textArray[textArrayIndex].length) {
     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
     charIndex++;
     setTimeout(type, typingDelay);
-} else {
-  
+  } else {
+    setTimeout(erase, newTextDelay);
+  }
 }
+
+const erase = () => {
+  typedTextSpan.textContent -= textArray[textArrayIndex].substring(0, charIndex - 1);
 }
 
-type();
-
-
-
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(type, 1000);
+});
 
 /* ------- Page Loader ------- */
-document.querySelector('.page-loader').classList.add('fade-out');
+document.querySelector(".page-loader").classList.add("fade-out");
 setTimeout(() => {
-  document.querySelector('.page-loader').style.display = 'none';
-},300);
+  document.querySelector(".page-loader").style.display = "none";
+}, 300);
 
 /* ------- Toggle Navbar ------- */
 const navToggler = document.querySelector(".nav-toggler");
@@ -60,25 +60,27 @@ const toggleNavbar = () => {
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("link-item") && e.target.hash !== "") {
-      // activate ovelay to prevent multiple clicks
-    document.querySelector('.overlay').classList.add('active');
-    navToggler.classList.add('hide');
+    // activate ovelay to prevent multiple clicks
+    document.querySelector(".overlay").classList.add("active");
+    navToggler.classList.add("hide");
 
     if (e.target.classList.contains("nav-item")) {
       toggleNavbar();
     } else {
       hideSection();
-      document.body.classList.add('hide-scrolling');
+      document.body.classList.add("hide-scrolling");
     }
 
     setTimeout(() => {
-        document.querySelector('section.active').classList.remove('active', 'fade-out');
-        document.querySelector(e.target.hash).classList.add('active');
-        window.scrollTo(0,0);
-        document.body.classList.remove('hide-scrolling');
-        navToggler.classList.remove('hide');
-        document.querySelector('.overlay').classList.remove('active');
-    }, 200)
+      document
+        .querySelector("section.active")
+        .classList.remove("active", "fade-out");
+      document.querySelector(e.target.hash).classList.add("active");
+      window.scrollTo(0, 0);
+      document.body.classList.remove("hide-scrolling");
+      navToggler.classList.remove("hide");
+      document.querySelector(".overlay").classList.remove("active");
+    }, 200);
   }
 });
 
