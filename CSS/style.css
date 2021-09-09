@@ -182,7 +182,6 @@ ul {
   animation: none;
 }
 
-
 /* ------- Custom Scrollbar ------- */
 
 ::-webkit-scrollbar {
@@ -297,11 +296,21 @@ button {
 }
 
 @keyframes blink {
-  0% {background-color: var(--main-color);}
-  49% {background-color: var(--main-color);}
-  50% {background-color: transparent;}
-  99% {background-color: transparent;}
-  100% {background-color: var(--main-color);}
+  0% {
+    background-color: var(--main-color);
+  }
+  49% {
+    background-color: var(--main-color);
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: var(--main-color);
+  }
 }
 
 /* ------- Background Circles ------- */
@@ -420,7 +429,6 @@ button {
   width: 45px;
   border-color: var(--blue);
   animation-duration: 1.2s;
-
 }
 
 .page-loader div:nth-child(3) {
