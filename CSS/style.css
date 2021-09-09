@@ -104,6 +104,10 @@ section.fade-out {
   width: 100%;
 }
 
+.container h2 {
+  font-weight: 500 !important;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +164,7 @@ ul {
   text-transform: capitalize;
 }
 
-/* -------!!!!!!! Text Typing Animation !!!!!!!!------- */
+/* ------- Text Typing Animation ------- */
 
 .typed-text {
   color: var(--main-color);
@@ -168,7 +172,7 @@ ul {
 
 .cursor {
   display: inline-block;
-  width: 2px;
+  width: 3px;
   background-color: var(--main-color);
   margin-left: 0.1rem;
   animation: blink 1s infinite;
@@ -178,13 +182,7 @@ ul {
   animation: none;
 }
 
-@keyframes blink {
-  0% {background-color: var(--main-color);}
-  49% {background-color: var(--main-color);}
-  50% {background-color: transparent;}
-  99% {background-color: transparent;}
-  100% {background-color: var(--main-color);}
-}
+
 
 /* ------- Custom Scrollbar ------- */
 
@@ -298,6 +296,15 @@ button {
     transform: rotate(360deg);
   }
 }
+
+@keyframes blink {
+  0% {background-color: var(--main-color);}
+  49% {background-color: var(--main-color);}
+  50% {background-color: transparent;}
+  99% {background-color: transparent;}
+  100% {background-color: var(--main-color);}
+}
+
 /* ------- Background Circles ------- */
 
 .bg-circles {
