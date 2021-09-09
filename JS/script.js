@@ -5,7 +5,13 @@ window.addEventListener('load', () => {
 
 /* ------- Text Typing Animation ------- */
 
+
+
+
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
+
+const typedTextSpan = document.querySelector('.typed-text');
+
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
@@ -13,11 +19,17 @@ const newTextDelay = 2000;
 let textArrayIndex = 0;
 let charIndex = 0;
 
+function type() {
+  if(charIndex < textArray[textArrayIndex].length) {
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+} else {
+  
+}
+}
 
-
-
-
-
+type();
 
 
 
@@ -26,7 +38,7 @@ let charIndex = 0;
 document.querySelector('.page-loader').classList.add('fade-out');
 setTimeout(() => {
   document.querySelector('.page-loader').style.display = 'none';
-},600);
+},300);
 
 /* ------- Toggle Navbar ------- */
 const navToggler = document.querySelector(".nav-toggler");
@@ -66,7 +78,7 @@ document.addEventListener("click", (e) => {
         document.body.classList.remove('hide-scrolling');
         navToggler.classList.remove('hide');
         document.querySelector('.overlay').classList.remove('active');
-    }, 500)
+    }, 200)
   }
 });
 
