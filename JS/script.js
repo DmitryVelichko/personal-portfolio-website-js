@@ -170,3 +170,25 @@ const portfolioItemDetails = (portfolioItem) => {
 };
 
 
+
+/* ------- En-Ru Language Switcher ------- */
+
+
+const langToggler = document.querySelector(".lang-switcher");
+
+
+
+
+langToggler.addEventListener("click", () => {
+
+  changeLang();
+  document.querySelector(".lang").innerHTML = 'En';
+  
+});
+
+
+
+const changeLang = () => {
+  document.querySelector("#home-el1").innerHTML = 'Привет! Меня зовут ';
+  document.querySelector("#home-el2").innerHTML = 'Дмитрий Величко';
+};
