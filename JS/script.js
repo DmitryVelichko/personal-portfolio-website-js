@@ -84,7 +84,7 @@ const toggleNavbar = () => {
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("link-item") && e.target.hash !== "") {
-    // activate ovelay to prevent multiple clicks
+    // activate overlay to prevent multiple clicks
     document.querySelector(".overlay").classList.add("active");
     navToggler.classList.add("hide");
 
@@ -126,6 +126,7 @@ tabsContainer.addEventListener("click", (e) => {
       .querySelector(".tab-content.active")
       .classList.remove("active");
     aboutSection.querySelector(target).classList.add("active");
+    
   }
 });
 
@@ -169,20 +170,3 @@ const portfolioItemDetails = (portfolioItem) => {
 };
 
 
-
-/* ------- En-Ru Language Switcher ------- */
-
-if(false) {
-  
-}
-
-/* ------- String objects for Localization ------- */
-
-let language = {
-  en: {
-    p_hello: "Hello, I'm "
-  },
-  ru: {
-    p_hello: 'Привет, я '
-  }
-}
