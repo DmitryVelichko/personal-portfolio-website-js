@@ -245,7 +245,7 @@ button {
   color: var(--white);
 }
 
-.lang-switcher {
+/* .lang-switcher {
   width: 50px;
   height: 50px;
   border: none;
@@ -282,7 +282,7 @@ button {
 .lang-switcherRu:hover {
   background-color: var(--main-color);
   color: var(--white)
-}
+} */
 
 
 /* ------- Animation ------- */
