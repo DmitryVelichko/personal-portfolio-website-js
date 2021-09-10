@@ -172,7 +172,7 @@ const portfolioItemDetails = (portfolioItem) => {
 
 /* ------- En-Ru Language Switcher ------- */
 
-if() {
+if(false) {
   
 }
 
