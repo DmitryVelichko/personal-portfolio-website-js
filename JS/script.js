@@ -167,3 +167,22 @@ const portfolioItemDetails = (portfolioItem) => {
     ".portfolio-item-details"
   ).innerHTML;
 };
+
+
+
+/* ------- En-Ru Language Switcher ------- */
+
+if() {
+  
+}
+
+/* ------- String objects for Localization ------- */
+
+let language = {
+  en: {
+    p_hello: "Hello, I'm "
+  },
+  ru: {
+    p_hello: 'Привет, я '
+  }
+}
