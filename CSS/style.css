@@ -262,11 +262,14 @@ button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
+  margin-top: 20px;
 }
 
-.lang-switcher > p {
-  
+.lang-btn-container {
+  display: flex;
+  flex-direction: column;
 }
+
 
 /* ------- Animation ------- */
 
