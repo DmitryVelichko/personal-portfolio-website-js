@@ -249,27 +249,12 @@ button {
 
 /*------- Language Switcher -------*/
 
-.lang-switcher {
+ .lang-switcher {
   width: 50px;
-
+ 
 }
 
 
-
-.lang-btn-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.lang-switcher:hover {
-  background-color: var(--main-color);
-  color: var(--white)
-}
-
-.lang-switcherRu:hover {
-  background-color: var(--main-color);
-  color: var(--white)
-} */
 
 
 /* ------- Animation ------- */
