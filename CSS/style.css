@@ -261,7 +261,9 @@ button {
   align-items: center;
   justify-content: center;
   margin: 0 15px;
- 
+  z-index: 1;
+  transition: opacity 0.5s ease-in-out;
+  
 }
 
 
