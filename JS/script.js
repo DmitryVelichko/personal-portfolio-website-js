@@ -171,7 +171,7 @@ const portfolioItemDetails = (portfolioItem) => {
 
 
 
-/* ------- En-Ru Language Switcher 
+/* ------- En-Ru Language Switcher ------- */
 
 
 const langToggler = document.querySelector(".lang-switcher");
@@ -193,4 +193,4 @@ const changeLang = () => {
   document.querySelector("#home-el2").innerHTML = 'Дмитрий Величко';
 };
 
-------- */
+
