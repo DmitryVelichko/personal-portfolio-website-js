@@ -175,16 +175,30 @@ const portfolioItemDetails = (portfolioItem) => {
 
 
 const langToggler = document.querySelector(".lang-switcher");
+
 const EnRu = document.querySelector(".lang");
 
-if (lang)
+
+
+  console.log(EnRu.innerHTML);
 
 langToggler.addEventListener("click", () => {
 
+  if (EnRu.innerHTML === 'Ru') {
+
   changeLang();
   document.querySelector(".lang").innerHTML = 'En';
+  };
+
+  if (EnRu.innerHTML === 'En') {
+    alert('hey');
+    console.log(EnRu.innerHTML);
+  };
   
 });
+
+
+
 
 
 const changeLang = () => {
