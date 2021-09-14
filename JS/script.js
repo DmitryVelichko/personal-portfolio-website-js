@@ -175,9 +175,9 @@ const portfolioItemDetails = (portfolioItem) => {
 
 
 const langToggler = document.querySelector(".lang-switcher");
+const EnRu = document.querySelector(".lang");
 
-
-
+if (lang)
 
 langToggler.addEventListener("click", () => {
 
@@ -185,7 +185,6 @@ langToggler.addEventListener("click", () => {
   document.querySelector(".lang").innerHTML = 'En';
   
 });
-
 
 
 const changeLang = () => {
