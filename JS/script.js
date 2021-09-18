@@ -3,9 +3,12 @@ window.addEventListener("load", () => {
   document.querySelector(".home-section").classList.add("active");
 });
 
-/* ------- Text Typing Animation ------- */
 
+
+
+/* ------- Text Typing Animation ------- */
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
+
 const cursorSpan = document.querySelector(".cursor");
 
 const typedTextSpan = document.querySelector(".typed-text");
@@ -55,8 +58,8 @@ const erase = () => {
 document.addEventListener("DOMContentLoaded", () => {
   if (textArray.length) {
     setTimeout(type, 1000);
-  }
-});
+    }
+}); 
 
 /* ------- Page Loader ------- */
 document.querySelector(".page-loader").classList.add("fade-out");
@@ -126,7 +129,6 @@ tabsContainer.addEventListener("click", (e) => {
       .querySelector(".tab-content.active")
       .classList.remove("active");
     aboutSection.querySelector(target).classList.add("active");
-    
   }
 });
 
@@ -170,40 +172,39 @@ const portfolioItemDetails = (portfolioItem) => {
 };
 
 
-
 /* ------- En-Ru Language Switcher ------- */
-
 
 const langToggler = document.querySelector(".lang-switcher");
 
 const EnRu = document.querySelector(".lang");
 
 
-
-  console.log(EnRu.innerHTML);
-
 langToggler.addEventListener("click", () => {
-
-  if (EnRu.innerHTML === 'Ru') {
-
-  changeLang();
-  document.querySelector(".lang").innerHTML = 'En';
-  };
-
-  if (EnRu.innerHTML === 'En') {
-    alert('hey');
-    console.log(EnRu.innerHTML);
-  };
-  
+  if (EnRu.innerHTML === "Ru") {
+   
+    document.querySelector(".lang").innerHTML = "En";
+    
+    changeLangToRu();
+  } else if (EnRu.innerHTML === "En") {
+    
+    document.querySelector(".lang").innerHTML = "Ru";
+   
+    changeLangToEn();
+  }
 });
 
-
-
-
-
-const changeLang = () => {
-  document.querySelector("#home-el1").innerHTML = 'Привет! Меня зовут ';
-  document.querySelector("#home-el2").innerHTML = 'Дмитрий Величко';
+const changeLangToRu = () => {
+  document.querySelector("#home-1").innerHTML = "Привет! Меня зовут ";
+  document.querySelector("#home-2").innerHTML = "Дмитрий Величко";
+  document.querySelector("#home-3").innerHTML = "Резюме";
+  document.querySelector("#home-4").innerHTML = "Портфолио";
+  document.querySelector("#about-1").innerHTML = "Портфолио";
 };
 
-
+const changeLangToEn = () => {
+  document.querySelector("#home-1").innerHTML = "Hello, I'm ";
+  document.querySelector("#home-2").innerHTML = "Dmitry Velichko";
+  document.querySelector("#home-3").innerHTML = "more about me";
+  document.querySelector("#home-4").innerHTML = "portfolio";
+  document.querySelector("#about-1").innerHTML = "About me";
+};
