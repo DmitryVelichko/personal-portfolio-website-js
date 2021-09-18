@@ -198,7 +198,22 @@ const changeLangToRu = () => {
   document.querySelector("#home-2").innerHTML = "Дмитрий Величко";
   document.querySelector("#home-3").innerHTML = "Резюме";
   document.querySelector("#home-4").innerHTML = "Портфолио";
+
   document.querySelector("#about-1").innerHTML = "Портфолио";
+  document.querySelector("#about-2").innerHTML = "";
+  document.querySelector("#about-3").innerHTML = "";
+  document.querySelector("#about-4").innerHTML = "";
+  document.querySelector("#about-5").innerHTML = "";
+  document.querySelector("#about-6").innerHTML = "";
+  document.querySelector("#about-7").innerHTML = "";
+  document.querySelector("#about-8").innerHTML = "";
+  document.querySelector("#about-9").innerHTML = "";
+  document.querySelector("#about-10").innerHTML = "";
+  document.querySelector("#about-11").innerHTML = "";
+  document.querySelector("#about-12").innerHTML = "";
+  document.querySelector("#about-13").innerHTML = "";
+  document.querySelector("#about-14").innerHTML = "";
+  
 };
 
 const changeLangToEn = () => {
@@ -207,4 +222,19 @@ const changeLangToEn = () => {
   document.querySelector("#home-3").innerHTML = "more about me";
   document.querySelector("#home-4").innerHTML = "portfolio";
   document.querySelector("#about-1").innerHTML = "About me";
+
+  document.querySelector("#about-1").innerHTML = "Портфолио";
+  document.querySelector("#about-2").innerHTML = "";
+  document.querySelector("#about-3").innerHTML = "";
+  document.querySelector("#about-4").innerHTML = "";
+  document.querySelector("#about-5").innerHTML = "";
+  document.querySelector("#about-6").innerHTML = "";
+  document.querySelector("#about-7").innerHTML = "";
+  document.querySelector("#about-8").innerHTML = "";
+  document.querySelector("#about-9").innerHTML = "";
+  document.querySelector("#about-10").innerHTML = "";
+  document.querySelector("#about-11").innerHTML = "";
+  document.querySelector("#about-12").innerHTML = "";
+  document.querySelector("#about-13").innerHTML = "";
+  document.querySelector("#about-14").innerHTML = "";
 };
