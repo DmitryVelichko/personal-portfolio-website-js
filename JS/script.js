@@ -287,6 +287,16 @@ const changeLangToRu = () => {
   document.querySelector("#portfolio-59").innerHTML = "";
   document.querySelector("#portfolio-60").innerHTML = "";
   document.querySelector("#portfolio-61").innerHTML = "";
+
+  document.querySelector("#contact-1").innerHTML = "";
+  document.querySelector("#contact-2").innerHTML = "";
+  document.querySelector("#contact-3").innerHTML = "";
+  document.querySelector("#contact-4").innerHTML = "";
+  document.querySelector("#contact-5").innerHTML = "";
+  document.querySelector("#contact-6").innerHTML = "";
+  document.querySelector("#contact-7").innerHTML = "";
+  document.querySelector("#contact-8").innerHTML = "";
+  document.querySelector("#contact-9").innerHTML = "";
   
   
   
@@ -299,7 +309,7 @@ const changeLangToEn = () => {
   document.querySelector("#home-4").innerHTML = "portfolio";
   document.querySelector("#about-1").innerHTML = "About me";
 
-  document.querySelector("#about-1").innerHTML = "Портфолио";
+  document.querySelector("#about-1").innerHTML = "about me";
   document.querySelector("#about-2").innerHTML = "";
   document.querySelector("#about-3").innerHTML = "";
   document.querySelector("#about-4").innerHTML = "";
@@ -387,4 +397,14 @@ const changeLangToEn = () => {
   document.querySelector("#portfolio-59").innerHTML = "";
   document.querySelector("#portfolio-60").innerHTML = "";
   document.querySelector("#portfolio-61").innerHTML = "";
+
+  document.querySelector("#contact-1").innerHTML = "contact me";
+  document.querySelector("#contact-2").innerHTML = "";
+  document.querySelector("#contact-3").innerHTML = "";
+  document.querySelector("#contact-4").innerHTML = "";
+  document.querySelector("#contact-5").innerHTML = "";
+  document.querySelector("#contact-6").innerHTML = "";
+  document.querySelector("#contact-7").innerHTML = "";
+  document.querySelector("#contact-8").innerHTML = "";
+  document.querySelector("#contact-9").innerHTML = "";
 };
