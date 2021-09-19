@@ -692,6 +692,15 @@ header {
   border-radius: 50%;
 }
 
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7b{
+  width: 100%;
+  background-color: var(--white-alpha-25);
+  border: 2px solid var(--white-alpha-40);
+  margin: auto;
+  border-radius: 10px;
+ 
+}
+
 /* ------- About Section ------- */
 .about-img {
   width: 40%;
