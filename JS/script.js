@@ -3,9 +3,6 @@ window.addEventListener("load", () => {
   document.querySelector(".home-section").classList.add("active");
 });
 
-
-
-
 /* ------- Text Typing Animation ------- */
 const textArray = ["Front-End Web Dev", "Designer", "Freelancer"];
 
@@ -58,8 +55,8 @@ const erase = () => {
 document.addEventListener("DOMContentLoaded", () => {
   if (textArray.length) {
     setTimeout(type, 1000);
-    }
-}); 
+  }
+});
 
 /* ------- Page Loader ------- */
 document.querySelector(".page-loader").classList.add("fade-out");
@@ -171,24 +168,20 @@ const portfolioItemDetails = (portfolioItem) => {
   ).innerHTML;
 };
 
-
 /* ------- En-Ru Language Switcher ------- */
 
 const langToggler = document.querySelector(".lang-switcher");
 
 const EnRu = document.querySelector(".lang");
 
-
 langToggler.addEventListener("click", () => {
   if (EnRu.innerHTML === "Ru") {
-   
     document.querySelector(".lang").innerHTML = "En";
-    
+
     changeLangToRu();
   } else if (EnRu.innerHTML === "En") {
-    
     document.querySelector(".lang").innerHTML = "Ru";
-   
+
     changeLangToEn();
   }
 });
@@ -297,9 +290,6 @@ const changeLangToRu = () => {
   document.querySelector("#contact-7").innerHTML = "";
   document.querySelector("#contact-8").innerHTML = "";
   document.querySelector("#contact-9").innerHTML = "";
-  
-  
-  
 };
 
 const changeLangToEn = () => {
