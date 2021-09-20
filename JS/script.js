@@ -213,16 +213,6 @@ const changeLangToRu = () => {
   document.querySelector("#about-15").innerHTML = "Резюме";
   document.querySelector("#about-16").innerHTML = "Связаться";
 
-  document.querySelector("#exp-1").innerHTML = "Frontend Web Developer –";
-  document.querySelector("#exp-2").innerHTML = "Self-employed";
-  document.querySelector("#exp-3").innerHTML = "<strong>></strong> I design web apps and websites using HTML, CSS, Bootstrap, JavaScript, and ReactJS.";
-  document.querySelector("#exp-4").innerHTML = "Freelance Translator –";
-  document.querySelector("#exp-5").innerHTML = "Supertext / Mars Translation";
-  document.querySelector("#exp-6").innerHTML = "<strong>></strong> Provided English to Russian translation and editing services (games, mobile apps and websites).<br />";
-  document.querySelector("#exp-7").innerHTML = "Director –";
-  document.querySelector("#exp-8").innerHTML = "Museum of Academician Sergei Korolev<br />(Branch of the Museum of Astronautics)";
-  document.querySelector("#exp-9").innerHTML = "<strong>></strong> Directed all aspects of museum operations.<br /><br />";
-
   document.querySelector("#exp-1").innerHTML = "Фронтенд веб-разразботчик";
   document.querySelector("#exp-2").innerHTML = "Фриланс";
   document.querySelector("#exp-3").innerHTML = "<strong>></strong> Разработка сайтов с помощью HTML, CSS, Bootstrap, JavaScript и ReactJS.";
@@ -233,15 +223,25 @@ const changeLangToRu = () => {
   document.querySelector("#exp-8").innerHTML = "Музей академика С.П. Королева<br/>(Филиал Музея космонавтики)";
   document.querySelector("#exp-9").innerHTML = "<strong>></strong>";
 
-  document.querySelector("#exp-9-1").innerHTML = "";
-  document.querySelector("#exp-9-2").innerHTML = "";
-  document.querySelector("#exp-9-3").innerHTML = "";
-  document.querySelector("#exp-9-4").innerHTML = "";
-  document.querySelector("#exp-9-5").innerHTML = "";
-  document.querySelector("#exp-9-6").innerHTML = "";
-  document.querySelector("#exp-9-7").innerHTML = "";
-  document.querySelector("#exp-9-8").innerHTML = "";
-  document.querySelector("#exp-9-9").innerHTML = "";
+  document.querySelector("#exp-9-1").innerHTML = "‎<strong>></strong> Achieved a twofold increase in the attendance rate at the museum (doubling from 3,000 to 6,000 attendees a year).<br /><br />";
+  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Cosmonautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
+  document.querySelector("#exp-9-3").innerHTML = "<strong>></strong> ‎Oversaw promotion of various museum services and programmes.<br /><br />";
+  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Cosmonautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
+  document.querySelector("#exp-9-5").innerHTML = "‎<strong>></strong> Worked as an interpreter during official visits from foreign ambassadors, delegations, government officials of different countries, and other VIP guests.<br /><br />";
+  document.querySelector("#exp-9-6").innerHTML = "<strong>></strong> Promoted museum through attendance at relevant conferences, workshops and meetings.<br /><br />";
+  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> Fostered and maintained excellent working relationships with other museums.<br /><br />";
+  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> Ensured excellent customer service.<br /><br />";
+  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> Prepared and submitted annual budget to museum Board of Directors.<br /><br />";
+
+  document.querySelector("#exp-9-1").innerHTML = "<strong>></strong>За время своей работы в должности директора добился увеличения посещаемости Мемориального дома-музея академика С.П. Королёва в два раза (с 3000 до 6000 человек в год).<br /><br />";
+  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong>Отвечал за подготовку с нуля новых экскурсоводов, научных сотрудников и гидов-переводчиков к проведению экскурсий на русском и английском языках по Музею космонавтики и Мемориальному дому-музею академика С.П. Королёва, а также за оценку качества проведения экскурсий.<br /><br />";
+  document.querySelector("#exp-9-3").innerHTML = "<strong>></strong>Принимал активное участие в разработке новых экскурсионных программ, музейных олимпиад и музейных уроков для школьников всех возрастных категорий.<br /><br />";
+  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong>Внёс значительный вклад в развитие и популяризацию Музея космонавтики и Мемориального дома-музея академика С.П. Королёва в России и на международной арене.<br /><br />";
+  document.querySelector("#exp-9-5").innerHTML = "<strong>></strong>Осуществлял письменный перевод на английский и русский языки текстов музейных выставок, научных докладов, деловой корреспонденции.<br /><br />";
+  document.querySelector("#exp-9-6").innerHTML = "<strong>></strong>Выполнял устный перевод во время официальных визитов сотрудников иностранных посольств, делегаций, членов правительств разных стран и других VIP-гостей.<br /><br />";
+  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> <br /><br />";
+  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> <br /><br />";
+  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> <br /><br />";
 
   document.querySelector("#exp-10-1").innerHTML = "";
   document.querySelector("#exp-10-2").innerHTML = "";
