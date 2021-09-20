@@ -368,7 +368,7 @@ const changeLangToEn = () => {
   document.querySelector("#exp-10-6").innerHTML = "Live interpretation of Luc van den Abeelen, designer of space patches and the artist of the Dutch company Spaceview.";
   document.querySelector("#exp-10-7").innerHTML = "During the book presentation of the Australian writer Alison Giles.";
 
-  document.querySelector("#portfolio-1").innerHTML = "";
+  document.querySelector("#portfolio-1").innerHTML = "recent work";
   document.querySelector("#portfolio-2").innerHTML = "";
   document.querySelector("#portfolio-3").innerHTML = "";
   document.querySelector("#portfolio-4").innerHTML = "";
@@ -430,13 +430,13 @@ const changeLangToEn = () => {
   document.querySelector("#portfolio-60").innerHTML = "";
   document.querySelector("#portfolio-61").innerHTML = "";
 
-  document.querySelector("#contact-1").innerHTML = "contact me";
+  document.querySelector("#contact-1").innerHTML = "Contact Me";
   document.querySelector("#contact-2").innerHTML = "";
   document.querySelector("#contact-3").innerHTML = "";
   document.querySelector("#contact-4").innerHTML = "";
   document.querySelector("#contact-5").innerHTML = "";
-  document.querySelector("#contact-6").innerHTML = "";
-  document.querySelector("#contact-7").innerHTML = "";
-  document.querySelector("#contact-8").innerHTML = "";
-  document.querySelector("#contact-9").innerHTML = "";
+  document.querySelector("#contact-6").innerHTML = "Send Message";
+  document.querySelector("#contact-7").innerHTML = "Email";
+  document.querySelector("#contact-8").innerHTML = "Phone";
+  document.querySelector("#contact-9").innerHTML = "Follow Me";
 };
