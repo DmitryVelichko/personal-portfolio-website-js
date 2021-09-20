@@ -170,7 +170,7 @@ const portfolioItemDetails = (portfolioItem) => {
 
 /* ------- En-Ru Language Switcher ------- */
 
-const langToggler = document.querySelector(".lang-switcher");
+/* const langToggler = document.querySelector(".lang-switcher");
 
 const EnRu = document.querySelector(".lang");
 
@@ -198,7 +198,7 @@ const changeLangToRu = () => {
   document.querySelector("#about-4").innerHTML = "Образование";
   document.querySelector("#about-5").innerHTML = "Опыт работы";
   document.querySelector("#about-5-1").innerHTML = "2021 - по настоящее время";
-  document.querySelector("#about-5-2").innerHTML = "2021 - по насоящее время";
+  document.querySelector("#about-5-2").innerHTML = "2021 - по настоящее время";
   document.querySelector("#about-6").innerHTML = "Frontend веб-разработчик –";
   document.querySelector("#about-7").innerHTML = "Онлайн курсы";
   document.querySelector("#about-8").innerHTML = "Курсы по фронтенду и computer science от Udemy, Udacity, FreeCodeCamp, PluralSight, TeamTreeHouse, Traversy Media, Mosh, WebDev Simplified, DevEd, Derek Banas и др.";
@@ -233,13 +233,13 @@ const changeLangToRu = () => {
   document.querySelector("#exp-9-8").innerHTML = "<strong>></strong>Следил за контролем качества оказываемых услуг.<br /><br />";
   document.querySelector("#exp-9-9").innerHTML = "<strong>></strong>Нанимал новых сотрудников на различные должности и вел хозяйскую деятельность.<br /><br />";
 
-  document.querySelector("#exp-10-1").innerHTML = "";
-  document.querySelector("#exp-10-2").innerHTML = "";
-  document.querySelector("#exp-10-3").innerHTML = "";
-  document.querySelector("#exp-10-4").innerHTML = "";
-  document.querySelector("#exp-10-5").innerHTML = "";
-  document.querySelector("#exp-10-6").innerHTML = "";
-  document.querySelector("#exp-10-7").innerHTML = "";
+  document.querySelector("#exp-10-1").innerHTML = "Будни переводчика. Первый астронавт ОАЭ Хаззаа Аль-Мансури и его дублер Султан Аль-Наяди.";
+  document.querySelector("#exp-10-2").innerHTML = "Будни переводчика. Визит администратора НАСА Джима Брайденстайна в Музей космонавтики.";
+  document.querySelector("#exp-10-3").innerHTML = "Будни переводчика. С французским музыкантом Дидье Маруани.";
+  document.querySelector("#exp-10-4").innerHTML = "Будни переводчика. Во время визита посла Аргентины Рикардо Лагорио.";
+  document.querySelector("#exp-10-5").innerHTML = "Будни переводчика. Официальный физит правительства Ирландии в Музей космонавтики.";
+  document.querySelector("#exp-10-6").innerHTML = "Будни переводчика. Последовательный перевод выступления Люка ван ден Абелена, дизайнера космических нашивок.";
+  document.querySelector("#exp-10-7").innerHTML = "Будни переводчика. Во время встречи с австралийской писательницей Элисон Гайлс.";
 
 
 
@@ -304,16 +304,17 @@ const changeLangToRu = () => {
   document.querySelector("#portfolio-59").innerHTML = "";
   document.querySelector("#portfolio-60").innerHTML = "";
   document.querySelector("#portfolio-61").innerHTML = "";
+  
 
-  document.querySelector("#contact-1").innerHTML = "";
+  document.querySelector("#contact-1").innerHTML = "Контакты";
   document.querySelector("#contact-2").innerHTML = "";
   document.querySelector("#contact-3").innerHTML = "";
   document.querySelector("#contact-4").innerHTML = "";
   document.querySelector("#contact-5").innerHTML = "";
-  document.querySelector("#contact-6").innerHTML = "";
-  document.querySelector("#contact-7").innerHTML = "";
-  document.querySelector("#contact-8").innerHTML = "";
-  document.querySelector("#contact-9").innerHTML = "";
+  document.querySelector("#contact-6").innerHTML = "Отправить";
+  document.querySelector("#contact-7").innerHTML = "Почта";
+  document.querySelector("#contact-8").innerHTML = "Телефон";
+  document.querySelector("#contact-9").innerHTML = "Другие контакты";
 };
 
 const changeLangToEn = () => {
@@ -353,20 +354,20 @@ const changeLangToEn = () => {
   document.querySelector("#exp-9").innerHTML = "<strong>></strong> Directed all aspects of museum operations.<br /><br />";
 
   document.querySelector("#exp-9-1").innerHTML = "‎<strong>></strong> Achieved a twofold increase in the attendance rate at the museum (doubling from 3,000 to 6,000 attendees a year).<br /><br />";
-  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Cosmonautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
+  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Astronautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
   document.querySelector("#exp-9-3").innerHTML = "<strong>></strong> ‎Oversaw promotion of various museum services and programmes.<br /><br />";
-  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Cosmonautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
+  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Astronautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
   document.querySelector("#exp-9-5").innerHTML = "‎<strong>></strong> Worked as an interpreter during official visits from foreign ambassadors, delegations, government officials of different countries, and other VIP guests.<br /><br />";
   document.querySelector("#exp-9-6").innerHTML = "<strong>></strong> Promoted museum through attendance at relevant conferences, workshops and meetings.<br /><br />";
   document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> Fostered and maintained excellent working relationships with other museums.<br /><br />";
   document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> Ensured excellent customer service.<br /><br />";
   document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> Prepared and submitted annual budget to museum Board of Directors.<br /><br />";
 
-  document.querySelector("#exp-10-1").innerHTML = "The first astronaut from the United Arab Emirates Hazza Al Mansouri. It was an honor for me to provide interpreting services for the astronaut Hazza Al Mansouri and his backup astronaut Sultan Al Nayadi, who visited the Museum of Cosmonautics a few months before the historical launch from Baikonur Cosmodrome.";
-  document.querySelector("#exp-10-2").innerHTML = "NASA Administrator Jim Bridenstine visits the Museum of Cosmonautics. One of the most challenging and exciting interpreter jobs I have ever had.";
-  document.querySelector("#exp-10-3").innerHTML = "French composer and musician Didier Marouani visits the Museum of Cosmonautics.";
+  document.querySelector("#exp-10-1").innerHTML = "Providing interpreting services for the first astronaut from the United Arab Emirates Hazza Al Mansouri and his backup astronaut Sultan Al Nayadi.";
+  document.querySelector("#exp-10-2").innerHTML = "NASA Administrator Jim Bridenstine visits the Museum of Astronautics. One of the most challenging and exciting interpreter jobs I have ever had.";
+  document.querySelector("#exp-10-3").innerHTML = "French composer and musician Didier Marouani visits the Museum of Astronautics.";
   document.querySelector("#exp-10-4").innerHTML = "Live interpretation during the visit of Ricardo Lagorio, Ambassador of the Argentine Republic to the Russian Federation.";
-  document.querySelector("#exp-10-5").innerHTML = "During the official visit of the Government Delegation of Ireland to the Museum of Cosmonautics.";
+  document.querySelector("#exp-10-5").innerHTML = "During the official visit of the Government Delegation of Ireland to the Museum of Astronautics.";
   document.querySelector("#exp-10-6").innerHTML = "Live interpretation of Luc van den Abeelen, designer of space patches and the artist of the Dutch company Spaceview.";
   document.querySelector("#exp-10-7").innerHTML = "During the book presentation of the Australian writer Alison Giles.";
 
@@ -431,14 +432,15 @@ const changeLangToEn = () => {
   document.querySelector("#portfolio-59").innerHTML = "";
   document.querySelector("#portfolio-60").innerHTML = "";
   document.querySelector("#portfolio-61").innerHTML = "";
+  
 
   document.querySelector("#contact-1").innerHTML = "Contact Me";
   document.querySelector("#contact-2").innerHTML = "";
   document.querySelector("#contact-3").innerHTML = "";
   document.querySelector("#contact-4").innerHTML = "";
-  document.querySelector("#contact-5").innerHTML = "";
+  document.querySelector("#contact-5").innerHTML = ""; 
   document.querySelector("#contact-6").innerHTML = "Send Message";
   document.querySelector("#contact-7").innerHTML = "Email";
   document.querySelector("#contact-8").innerHTML = "Phone";
   document.querySelector("#contact-9").innerHTML = "Follow Me";
-};
+}; */
