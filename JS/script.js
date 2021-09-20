@@ -354,19 +354,19 @@ const changeLangToEn = () => {
   document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Cosmonautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
   document.querySelector("#exp-9-3").innerHTML = "<strong>></strong> ‎Oversaw promotion of various museum services and programmes.<br /><br />";
   document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Cosmonautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
-  document.querySelector("#exp-9-5").innerHTML = "";
-  document.querySelector("#exp-9-6").innerHTML = "";
-  document.querySelector("#exp-9-7").innerHTML = "";
-  document.querySelector("#exp-9-8").innerHTML = "";
-  document.querySelector("#exp-9-9").innerHTML = "";
+  document.querySelector("#exp-9-5").innerHTML = "‎<strong>></strong> Worked as an interpreter during official visits from foreign ambassadors, delegations, government officials of different countries, and other VIP guests.<br /><br />";
+  document.querySelector("#exp-9-6").innerHTML = "<strong>></strong> Promoted museum through attendance at relevant conferences, workshops and meetings.<br /><br />";
+  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> Fostered and maintained excellent working relationships with other museums.<br /><br />";
+  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> Ensured excellent customer service.<br /><br />";
+  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> Prepared and submitted annual budget to museum Board of Directors.<br /><br />";
 
   document.querySelector("#exp-10-1").innerHTML = "The first astronaut from the United Arab Emirates Hazza Al Mansouri. It was an honor for me to provide interpreting services for the astronaut Hazza Al Mansouri and his backup astronaut Sultan Al Nayadi, who visited the Museum of Cosmonautics a few months before the historical launch from Baikonur Cosmodrome.";
-  document.querySelector("#exp-10-2").innerHTML = "";
+  document.querySelector("#exp-10-2").innerHTML = "NASA Administrator Jim Bridenstine visits the Museum of Cosmonautics. One of the most challenging and exciting interpreter jobs I have ever had.";
   document.querySelector("#exp-10-3").innerHTML = "French composer and musician Didier Marouani visits the Museum of Cosmonautics.";
-  document.querySelector("#exp-10-4").innerHTML = "";
-  document.querySelector("#exp-10-5").innerHTML = "";
-  document.querySelector("#exp-10-6").innerHTML = "";
-  document.querySelector("#exp-10-7").innerHTML = "";
+  document.querySelector("#exp-10-4").innerHTML = "Live interpretation during the visit of Ricardo Lagorio, Ambassador of the Argentine Republic to the Russian Federation.";
+  document.querySelector("#exp-10-5").innerHTML = "During the official visit of the Government Delegation of Ireland to the Museum of Cosmonautics.";
+  document.querySelector("#exp-10-6").innerHTML = "Live interpretation of Luc van den Abeelen, designer of space patches and the artist of the Dutch company Spaceview.";
+  document.querySelector("#exp-10-7").innerHTML = "During the book presentation of the Australian writer Alison Giles.";
 
   document.querySelector("#portfolio-1").innerHTML = "";
   document.querySelector("#portfolio-2").innerHTML = "";
