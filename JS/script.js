@@ -213,15 +213,25 @@ const changeLangToRu = () => {
   document.querySelector("#about-15").innerHTML = "Резюме";
   document.querySelector("#about-16").innerHTML = "Связаться";
 
-  document.querySelector("#exp-1").innerHTML = "";
-  document.querySelector("#exp-2").innerHTML = "";
-  document.querySelector("#exp-3").innerHTML = "";
-  document.querySelector("#exp-4").innerHTML = "";
-  document.querySelector("#exp-5").innerHTML = "";
-  document.querySelector("#exp-6").innerHTML = "";
-  document.querySelector("#exp-7").innerHTML = "";
-  document.querySelector("#exp-8").innerHTML = "";
-  document.querySelector("#exp-9").innerHTML = "";
+  document.querySelector("#exp-1").innerHTML = "Frontend Web Developer –";
+  document.querySelector("#exp-2").innerHTML = "Self-employed";
+  document.querySelector("#exp-3").innerHTML = "<strong>></strong> I design web apps and websites using HTML, CSS, Bootstrap, JavaScript, and ReactJS.";
+  document.querySelector("#exp-4").innerHTML = "Freelance Translator –";
+  document.querySelector("#exp-5").innerHTML = "Supertext / Mars Translation";
+  document.querySelector("#exp-6").innerHTML = "<strong>></strong> Provided English to Russian translation and editing services (games, mobile apps and websites).<br />";
+  document.querySelector("#exp-7").innerHTML = "Director –";
+  document.querySelector("#exp-8").innerHTML = "Museum of Academician Sergei Korolev<br />(Branch of the Museum of Astronautics)";
+  document.querySelector("#exp-9").innerHTML = "<strong>></strong> Directed all aspects of museum operations.<br /><br />";
+
+  document.querySelector("#exp-1").innerHTML = "Фронтенд веб-разразботчик";
+  document.querySelector("#exp-2").innerHTML = "Фриланс";
+  document.querySelector("#exp-3").innerHTML = "<strong>></strong> Разработка сайтов с помощью HTML, CSS, Bootstrap, JavaScript и ReactJS.";
+  document.querySelector("#exp-4").innerHTML = "Переводчик";
+  document.querySelector("#exp-5").innerHTML = "Supertext / Mars Translation";
+  document.querySelector("#exp-6").innerHTML = "<strong>></strong> Перевод компьютерных игр, мобильных приложений и веб-сайтов.";
+  document.querySelector("#exp-7").innerHTML = "Директор -";
+  document.querySelector("#exp-8").innerHTML = "Музей академика С.П. Королева<br/>(Филиал Музея космонавтики)";
+  document.querySelector("#exp-9").innerHTML = "<strong>></strong>";
 
   document.querySelector("#exp-9-1").innerHTML = "";
   document.querySelector("#exp-9-2").innerHTML = "";
