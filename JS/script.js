@@ -223,25 +223,15 @@ const changeLangToRu = () => {
   document.querySelector("#exp-8").innerHTML = "Музей академика С.П. Королева<br/>(Филиал Музея космонавтики)";
   document.querySelector("#exp-9").innerHTML = "<strong>></strong>";
 
-  document.querySelector("#exp-9-1").innerHTML = "‎<strong>></strong> Achieved a twofold increase in the attendance rate at the museum (doubling from 3,000 to 6,000 attendees a year).<br /><br />";
-  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Cosmonautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
-  document.querySelector("#exp-9-3").innerHTML = "<strong>></strong> ‎Oversaw promotion of various museum services and programmes.<br /><br />";
-  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Cosmonautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
-  document.querySelector("#exp-9-5").innerHTML = "‎<strong>></strong> Worked as an interpreter during official visits from foreign ambassadors, delegations, government officials of different countries, and other VIP guests.<br /><br />";
-  document.querySelector("#exp-9-6").innerHTML = "<strong>></strong> Promoted museum through attendance at relevant conferences, workshops and meetings.<br /><br />";
-  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> Fostered and maintained excellent working relationships with other museums.<br /><br />";
-  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> Ensured excellent customer service.<br /><br />";
-  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> Prepared and submitted annual budget to museum Board of Directors.<br /><br />";
-
   document.querySelector("#exp-9-1").innerHTML = "<strong>></strong>За время своей работы в должности директора добился увеличения посещаемости Мемориального дома-музея академика С.П. Королёва в два раза (с 3000 до 6000 человек в год).<br /><br />";
-  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong>Отвечал за подготовку с нуля новых экскурсоводов, научных сотрудников и гидов-переводчиков к проведению экскурсий на русском и английском языках по Музею космонавтики и Мемориальному дому-музею академика С.П. Королёва, а также за оценку качества проведения экскурсий.<br /><br />";
+  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong>Отвечал за подготовку с нуля новых экскурсоводов, научных сотрудников и гидов-переводчиков к проведению экскурсий на русском и английском языках по Музею космонавтики и Дому-музею академика С.П. Королёва, а также за оценку качества проведения экскурсий.<br /><br />";
   document.querySelector("#exp-9-3").innerHTML = "<strong>></strong>Принимал активное участие в разработке новых экскурсионных программ, музейных олимпиад и музейных уроков для школьников всех возрастных категорий.<br /><br />";
-  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong>Внёс значительный вклад в развитие и популяризацию Музея космонавтики и Мемориального дома-музея академика С.П. Королёва в России и на международной арене.<br /><br />";
+  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong>Внёс значительный вклад в развитие и популяризацию Музея космонавтики и Дома-музея академика С.П. Королёва в России и на международной арене.<br /><br />";
   document.querySelector("#exp-9-5").innerHTML = "<strong>></strong>Осуществлял письменный перевод на английский и русский языки текстов музейных выставок, научных докладов, деловой корреспонденции.<br /><br />";
   document.querySelector("#exp-9-6").innerHTML = "<strong>></strong>Выполнял устный перевод во время официальных визитов сотрудников иностранных посольств, делегаций, членов правительств разных стран и других VIP-гостей.<br /><br />";
-  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong> <br /><br />";
-  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong> <br /><br />";
-  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong> <br /><br />";
+  document.querySelector("#exp-9-7").innerHTML = "<strong>></strong>Поддерживал рабочие отношения и организовывал мероприятия совместно с другими музеями.<br /><br />";
+  document.querySelector("#exp-9-8").innerHTML = "<strong>></strong>Следил за контролем качества оказываемых услуг.<br /><br />";
+  document.querySelector("#exp-9-9").innerHTML = "<strong>></strong>Нанимал новых сотрудников на различные должности и вел хозяйскую деятельность.<br /><br />";
 
   document.querySelector("#exp-10-1").innerHTML = "";
   document.querySelector("#exp-10-2").innerHTML = "";
