@@ -202,14 +202,16 @@ const changeLangToRu = () => {
   document.querySelector("#about-6").innerHTML = "Frontend веб-разработчик –";
   document.querySelector("#about-7").innerHTML = "Онлайн курсы";
   document.querySelector("#about-8").innerHTML = "Курсы по фронтенду и computer science от Udemy, Udacity, FreeCodeCamp, PluralSight, TeamTreeHouse, Traversy Media, Mosh, WebDev Simplified, DevEd, Derek Banas и др.";
-  document.querySelector("#about-9").innerHTML = "";
-  document.querySelector("#about-10").innerHTML = "";
-  document.querySelector("#about-11").innerHTML = "";
-  document.querySelector("#about-12").innerHTML = "";
-  document.querySelector("#about-13").innerHTML = "";
-  document.querySelector("#about-14").innerHTML = "";
-  document.querySelector("#about-15").innerHTML = "";
-  document.querySelector("#about-16").innerHTML = "";
+
+  
+  document.querySelector("#about-9").innerHTML = "Научный сотрудник - ";
+  document.querySelector("#about-10").innerHTML = "Музей космонавтики";
+  document.querySelector("#about-11").innerHTML = "Прошел обучение на должность научного сотрудника.<br /><br />Опубликовал книгу о жизни и деятельности академика С.П. Королева.";
+  document.querySelector("#about-12").innerHTML = "Переводчик";
+  document.querySelector("#about-13").innerHTML = "Московский государственный открытый университет";
+  document.querySelector("#about-14").innerHTML = "Диплом о высшем образовании. Переводчик с английского языка";
+  document.querySelector("#about-15").innerHTML = "Резюме";
+  document.querySelector("#about-16").innerHTML = "Связаться";
 
   document.querySelector("#exp-1").innerHTML = "";
   document.querySelector("#exp-2").innerHTML = "";
