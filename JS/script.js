@@ -193,8 +193,8 @@ const changeLangToRu = () => {
   document.querySelector("#home-4").innerHTML = "Портфолио";
 
   document.querySelector("#about-1").innerHTML = "Портфолио";
-  document.querySelector("#about-2").innerHTML = "";
-  document.querySelector("#about-3").innerHTML = "";
+  document.querySelector("#about-2").innerHTML = "👋 Лингвист по образованию, программист по призванию.<br /><br />👀 Фронтенд веб-разработчик (HTML, CSS, JS, ReactJS)<br /><br />💞️ Свободно владею английским языком на уровне носителя (9 лет опыта работы переводчиком).<br /><br />🌱 Имею 4-летний опыт управления коллективом (из них 2 года директором гос. учреждения культуры).<br /><br />📫 Если у вас есть вопросы или вы просто хотите пообщаться, то пишите: Dmitry.Velichko2010@gmail.com<br /><br />💥 github.com/DmitryVelichko";
+  document.querySelector("#about-3").innerHTML = "Навыки";
   document.querySelector("#about-4").innerHTML = "";
   document.querySelector("#about-5").innerHTML = "";
   document.querySelector("#about-6").innerHTML = "";
@@ -218,6 +218,26 @@ const changeLangToRu = () => {
   document.querySelector("#exp-7").innerHTML = "";
   document.querySelector("#exp-8").innerHTML = "";
   document.querySelector("#exp-9").innerHTML = "";
+
+  document.querySelector("#exp-9-1").innerHTML = "";
+  document.querySelector("#exp-9-2").innerHTML = "";
+  document.querySelector("#exp-9-3").innerHTML = "";
+  document.querySelector("#exp-9-4").innerHTML = "";
+  document.querySelector("#exp-9-5").innerHTML = "";
+  document.querySelector("#exp-9-6").innerHTML = "";
+  document.querySelector("#exp-9-7").innerHTML = "";
+  document.querySelector("#exp-9-8").innerHTML = "";
+  document.querySelector("#exp-9-9").innerHTML = "";
+
+  document.querySelector("#exp-10-1").innerHTML = "";
+  document.querySelector("#exp-10-2").innerHTML = "";
+  document.querySelector("#exp-10-3").innerHTML = "";
+  document.querySelector("#exp-10-4").innerHTML = "";
+  document.querySelector("#exp-10-5").innerHTML = "";
+  document.querySelector("#exp-10-6").innerHTML = "";
+  document.querySelector("#exp-10-7").innerHTML = "";
+
+
 
   document.querySelector("#portfolio-1").innerHTML = "";
   document.querySelector("#portfolio-2").innerHTML = "";
@@ -300,10 +320,10 @@ const changeLangToEn = () => {
   document.querySelector("#about-1").innerHTML = "About me";
 
   document.querySelector("#about-1").innerHTML = "about me";
-  document.querySelector("#about-2").innerHTML = "";
-  document.querySelector("#about-3").innerHTML = "";
-  document.querySelector("#about-4").innerHTML = "";
-  document.querySelector("#about-5").innerHTML = "";
+  document.querySelector("#about-2").innerHTML = "👋 Hi, I’m Dmitry.<br /><br />👀 A self-taught Frontend Web Dev (with a space industry background). Open for work or any projects.<br /><br />💞️ I’m working with HTML, CSS, JS, ReactJS (as well as SASS, TailwindCSS, Bootstrap) to make awesome websites & apps.<br /><br />🌱 I’m currently learning TypeScript, NextJS, Redux, and other technologies.<br /><br />📫 If you have any questions or just want to chat, I would be glad to talk to you! Please email at: Dmitry.Velichko2010@gmail.com<br /><br />💥 github.com/DmitryVelichko";
+  document.querySelector("#about-3").innerHTML = "Skills";
+  document.querySelector("#about-4").innerHTML = "education";
+  document.querySelector("#about-5").innerHTML = "experience";
   document.querySelector("#about-6").innerHTML = "";
   document.querySelector("#about-7").innerHTML = "";
   document.querySelector("#about-8").innerHTML = "";
@@ -325,6 +345,24 @@ const changeLangToEn = () => {
   document.querySelector("#exp-7").innerHTML = "";
   document.querySelector("#exp-8").innerHTML = "";
   document.querySelector("#exp-9").innerHTML = "";
+
+  document.querySelector("#exp-9-1").innerHTML = "";
+  document.querySelector("#exp-9-2").innerHTML = "";
+  document.querySelector("#exp-9-3").innerHTML = "";
+  document.querySelector("#exp-9-4").innerHTML = "";
+  document.querySelector("#exp-9-5").innerHTML = "";
+  document.querySelector("#exp-9-6").innerHTML = "";
+  document.querySelector("#exp-9-7").innerHTML = "";
+  document.querySelector("#exp-9-8").innerHTML = "";
+  document.querySelector("#exp-9-9").innerHTML = "";
+
+  document.querySelector("#exp-10-1").innerHTML = "";
+  document.querySelector("#exp-10-2").innerHTML = "";
+  document.querySelector("#exp-10-3").innerHTML = "";
+  document.querySelector("#exp-10-4").innerHTML = "";
+  document.querySelector("#exp-10-5").innerHTML = "";
+  document.querySelector("#exp-10-6").innerHTML = "";
+  document.querySelector("#exp-10-7").innerHTML = "";
 
   document.querySelector("#portfolio-1").innerHTML = "";
   document.querySelector("#portfolio-2").innerHTML = "";
