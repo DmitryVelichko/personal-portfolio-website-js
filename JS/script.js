@@ -331,16 +331,16 @@ const changeLangToEn = () => {
   document.querySelector("#about-6").innerHTML = "Frontend Web Developer –";
   document.querySelector("#about-7").innerHTML = "Online Courses";
   document.querySelector("#about-8").innerHTML = "Frontend and CS courses from Udemy, Udacity, FreeCodeCamp, PluralSight, TeamTreeHouse, Traversy Media, Mosh, WebDev Simplified, DevEd, Derek Banas, and other creators.";
-  document.querySelector("#about-9").innerHTML = "";
-  document.querySelector("#about-10").innerHTML = "";
-  document.querySelector("#about-11").innerHTML = "";
-  document.querySelector("#about-12").innerHTML = "";
-  document.querySelector("#about-13").innerHTML = "";
-  document.querySelector("#about-14").innerHTML = "";
-  document.querySelector("#about-15").innerHTML = "";
-  document.querySelector("#about-16").innerHTML = "";
+  document.querySelector("#about-9").innerHTML = "Research Associate –";
+  document.querySelector("#about-10").innerHTML = "Museum of Astronautics";
+  document.querySelector("#about-11").innerHTML = "Research Associate in the domain of Space History and Astronautics.<br /><br />Published a book on life and work of the Soviet Spacecraft Chief Designer Sergei Korolev.";
+  document.querySelector("#about-12").innerHTML = "Master's Degree –";
+  document.querySelector("#about-13").innerHTML = "Moscow State Open University";
+  document.querySelector("#about-14").innerHTML = "Translator and Interpreter (English and Spanish)";
+  document.querySelector("#about-15").innerHTML = "Resume";
+  document.querySelector("#about-16").innerHTML = "Contact Me";
 
-  document.querySelector("#exp-1").innerHTML = "";
+  document.querySelector("#exp-1").innerHTML = "Frontend Web Developer –";
   document.querySelector("#exp-2").innerHTML = "";
   document.querySelector("#exp-3").innerHTML = "";
   document.querySelector("#exp-4").innerHTML = "";
