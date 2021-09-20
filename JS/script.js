@@ -341,28 +341,28 @@ const changeLangToEn = () => {
   document.querySelector("#about-16").innerHTML = "Contact Me";
 
   document.querySelector("#exp-1").innerHTML = "Frontend Web Developer –";
-  document.querySelector("#exp-2").innerHTML = "";
-  document.querySelector("#exp-3").innerHTML = "";
-  document.querySelector("#exp-4").innerHTML = "";
-  document.querySelector("#exp-5").innerHTML = "";
-  document.querySelector("#exp-6").innerHTML = "";
-  document.querySelector("#exp-7").innerHTML = "";
-  document.querySelector("#exp-8").innerHTML = "";
-  document.querySelector("#exp-9").innerHTML = "";
+  document.querySelector("#exp-2").innerHTML = "Self-employed";
+  document.querySelector("#exp-3").innerHTML = "<strong>></strong> I design web apps and websites using HTML, CSS, Bootstrap, JavaScript, and ReactJS.";
+  document.querySelector("#exp-4").innerHTML = "Freelance Translator –";
+  document.querySelector("#exp-5").innerHTML = "Supertext / Mars Translation";
+  document.querySelector("#exp-6").innerHTML = " <strong>></strong> Provided English to Russian translation and editing services (games, mobile apps and websites).<br />";
+  document.querySelector("#exp-7").innerHTML = "Director –";
+  document.querySelector("#exp-8").innerHTML = "Museum of Academician Sergei Korolev<br />(Branch of the Museum of Astronautics)";
+  document.querySelector("#exp-9").innerHTML = "<strong>></strong> Directed all aspects of museum operations.<br /><br />";
 
-  document.querySelector("#exp-9-1").innerHTML = "";
-  document.querySelector("#exp-9-2").innerHTML = "";
-  document.querySelector("#exp-9-3").innerHTML = "";
-  document.querySelector("#exp-9-4").innerHTML = "";
+  document.querySelector("#exp-9-1").innerHTML = "‎<strong>></strong> Achieved a twofold increase in the attendance rate at the museum (doubling from 3,000 to 6,000 attendees a year).<br /><br />";
+  document.querySelector("#exp-9-2").innerHTML = "<strong>></strong> Provided academic training of new tour guides, museum researchers, guides/interpreters that conducted excursions in Russian and English at the Memorial Museum of Cosmonautics as well as the Memorial House-Museum of Academician S.P. Korolev, and was also responsible for assessing the quality of their excursions.<br /><br />";
+  document.querySelector("#exp-9-3").innerHTML = "<strong>></strong> ‎Oversaw promotion of various museum services and programmes.<br /><br />";
+  document.querySelector("#exp-9-4").innerHTML = "<strong>></strong> Made a significant contribution to the development and popularization of the Memorial Museum of Cosmonautics and the Memorial House-Museum of Academician S.P. Korolev both in Russia and internationally.<br /><br />";
   document.querySelector("#exp-9-5").innerHTML = "";
   document.querySelector("#exp-9-6").innerHTML = "";
   document.querySelector("#exp-9-7").innerHTML = "";
   document.querySelector("#exp-9-8").innerHTML = "";
   document.querySelector("#exp-9-9").innerHTML = "";
 
-  document.querySelector("#exp-10-1").innerHTML = "";
+  document.querySelector("#exp-10-1").innerHTML = "The first astronaut from the United Arab Emirates Hazza Al Mansouri. It was an honor for me to provide interpreting services for the astronaut Hazza Al Mansouri and his backup astronaut Sultan Al Nayadi, who visited the Museum of Cosmonautics a few months before the historical launch from Baikonur Cosmodrome.";
   document.querySelector("#exp-10-2").innerHTML = "";
-  document.querySelector("#exp-10-3").innerHTML = "";
+  document.querySelector("#exp-10-3").innerHTML = "French composer and musician Didier Marouani visits the Museum of Cosmonautics.";
   document.querySelector("#exp-10-4").innerHTML = "";
   document.querySelector("#exp-10-5").innerHTML = "";
   document.querySelector("#exp-10-6").innerHTML = "";
