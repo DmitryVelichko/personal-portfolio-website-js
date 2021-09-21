@@ -130,7 +130,7 @@ tabsContainer.addEventListener("click", (e) => {
 });
 
 
-/* ------- !!!!!!!!!!!!------- */
+/* ------- Portfolio Item Details Popup (h3 + img) */
 
 document.addEventListener('click', (e) => {
   if(e.target.classList.contains('view-1')) {
@@ -140,12 +140,9 @@ document.addEventListener('click', (e) => {
   }
 });
 
-/* ------- !!!!!!!!!!!!------- */
 
 
-
-
-/* ------- Portfolio Item Details Popup ------- */
+/* ------- Portfolio Item Details Popup (button) ------- */
 
 
 document.addEventListener("click", (e) => {
