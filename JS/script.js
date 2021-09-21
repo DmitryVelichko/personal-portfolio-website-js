@@ -132,12 +132,13 @@ tabsContainer.addEventListener("click", (e) => {
 
 /* ------- !!!!!!!!!!!!------- */
 
-const show = () => {
+document.addEventListener('click', (e) => {
+  if(e.target.classList.contains('view-1')) {
     togglePortfolioPopup();
     document.querySelector(".portfolio-popup").scrollTo(0, 0);
-    portfolioItemDetails(e.target.element);
-    
-}
+    portfolioItemDetails(e.target.parentNode.parentElement);
+  }
+});
 
 /* ------- !!!!!!!!!!!!------- */
 
@@ -152,6 +153,7 @@ document.addEventListener("click", (e) => {
     togglePortfolioPopup();
     document.querySelector(".portfolio-popup").scrollTo(0, 0);
     portfolioItemDetails(e.target.parentElement);
+    
   }
 });
 
