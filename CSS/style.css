@@ -890,6 +890,10 @@ header {
   border-radius: 10px;
 }
 
+.portfolio-item-thumbnail img {
+  cursor: pointer;
+}
+
 .portfolio-item h3 {
   font-size: 20px;
   text-transform: capitalize;
