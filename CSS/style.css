@@ -911,7 +911,7 @@ header {
 
 .portfolio-item-title:hover {
   cursor: pointer;
-  color: white;
+  color: var(--main-color);
 }
 
 
