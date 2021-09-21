@@ -906,6 +906,7 @@ header {
 }
 
 .portfolio-item-title:hover {
+  cursor: pointer;
   color: white;
 }
 
