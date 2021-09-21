@@ -866,6 +866,10 @@ header {
 }
 
 .portfolio-item {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   width: calc((100% / 3) - 30px);
   margin: 0 15px 30px;
 }
@@ -894,6 +898,15 @@ header {
 
 .portfolio-item-details {
   display: none;
+}
+
+.view-project-btn {
+  align-self: center;
+  width: 160px;
+}
+
+.portfolio-item-title:hover {
+  color: white;
 }
 
 
