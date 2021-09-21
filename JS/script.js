@@ -129,7 +129,23 @@ tabsContainer.addEventListener("click", (e) => {
   }
 });
 
+
+/* ------- !!!!!!!!!!!!------- */
+
+const show = () => {
+    togglePortfolioPopup();
+    document.querySelector(".portfolio-popup").scrollTo(0, 0);
+    portfolioItemDetails(e.target.element);
+    
+}
+
+/* ------- !!!!!!!!!!!!------- */
+
+
+
+
 /* ------- Portfolio Item Details Popup ------- */
+
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("view-project-btn")) {
@@ -149,13 +165,7 @@ document
   .querySelector(".pp-close")
   .addEventListener("click", togglePortfolioPopup);
 
-// hide popup when clicking outside of the popup
 
-document.addEventListener("click", (e) => {
-  if (e.target.classList.contains("pp-inner")) {
-    togglePortfolioPopup();
-  }
-});
 
 const portfolioItemDetails = (portfolioItem) => {
   document.querySelector(".pp-thumbnail img").src = portfolioItem.querySelector(
@@ -167,6 +177,14 @@ const portfolioItemDetails = (portfolioItem) => {
     ".portfolio-item-details"
   ).innerHTML;
 };
+
+// hide popup when clicking outside of the popup
+
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("pp-inner")) {
+    togglePortfolioPopup();
+  }
+});
 
 /* ------- En-Ru Language Switcher ------- */
 

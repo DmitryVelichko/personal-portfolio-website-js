@@ -870,6 +870,10 @@ header {
   margin: 0 15px 30px;
 }
 
+.portfolio-item-thumbnail:hover {
+  transform: scale(1.1);
+}
+
 .portfolio-item-thumbnail {
   padding: 10px;
   background-color: var(--white-alpha-25);
