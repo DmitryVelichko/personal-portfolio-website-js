@@ -245,6 +245,12 @@ button {
   color: var(--white);
 }
 
+#portfolio-btn-more {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
 
 
 /*------- Language Switcher -------*/
